@@ -25,10 +25,10 @@ namespace StringIO_TextView
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (TextCheck())
-            {
-                this.lblResult.Text = this.OrgStr + this.txtEdit.Text;
-            }
+                if (TextCheck())
+                {
+                    this.lblResult.Text = this.OrgStr + this.txtEdit.Text;
+                }
         }
         private bool TextCheck()
         {
